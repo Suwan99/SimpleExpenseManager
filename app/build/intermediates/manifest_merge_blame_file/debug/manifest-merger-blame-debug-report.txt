@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2015 Department of Computer Science and Engineering, University of Moratuwa.
+4  ~ Licensed under the Apache License, Version 2.0 (the "License");
+5  ~ you may not use this file except in compliance with the License.
+6  ~ You may obtain a copy of the License at
+7  ~
+8  ~                  http://www.apache.org/licenses/LICENSE-2.0
+9  ~
+10  ~ Unless required by applicable law or agreed to in writing, software
+11  ~ distributed under the License is distributed on an "AS IS" BASIS,
+12  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13  ~ See the License for the specific language governing permissions and
+14  ~ limitations under the License.
+15  ~ all rights reserved.
+16  ~
+17-->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    package="lk.ac.mrt.cse.dbs.simpleexpensemanager"
+20    android:versionCode="1"
+21    android:versionName="1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="19"
+24-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="26" />
+25-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml
+26
+27    <application
+27-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:22:5-38:19
+28        android:allowBackup="true"
+28-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:23:9-35
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:24:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:25:9-41
+32        android:supportsRtl="true"
+32-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:26:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:27:9-40
+35        <activity
+35-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:28:9-37:20
+36            android:name="lk.ac.mrt.cse.dbs.simpleexpensemanager.ui.MainActivity"
+36-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:29:13-44
+37            android:label="@string/app_name"
+37-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:30:13-45
+38            android:theme="@style/AppTheme.NoActionBar" >
+38-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:31:13-56
+39            <intent-filter>
+39-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:32:13-36:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:33:17-68
+40-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:33:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:35:17-76
+42-->C:\Users\suwan\Downloads\Github\SimpleExpenseManager\app\src\main\AndroidManifest.xml:35:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->[com.android.support:design:26.1.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:26:9-28:38
+47            android:name="android.support.VERSION"
+47-->[com.android.support:design:26.1.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:27:13-51
+48            android:value="26.1.0" />
+48-->[com.android.support:design:26.1.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:28:13-35
+49        <meta-data
+49-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+50            android:name="android.arch.lifecycle.VERSION"
+50-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:26:13-58
+51            android:value="27.0.0-SNAPSHOT" />
+51-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\suwan\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:27:13-44
+52    </application>
+53
+54</manifest>
