@@ -57,4 +57,5 @@ You can make improvements to the project as you require. However this project is
   ```
 6. Commit your code and push to your forked repository in GitHub.
 7. Download your project as a Zip from GitHub and submit as the completed assignment.
+8. I have added 2 new user accounts to test this program if it holds user data
 
